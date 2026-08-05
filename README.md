@@ -168,12 +168,12 @@ second.next = third
 third.prev = second
 ```
 
+## Why LL Playground?
 
-
-Why LL Playground?
 Linked-list problems in Python often require a surprising amount of repetitive setup.
 Before you can work on the algorithm itself, you need to define the ListNode Class and manually define a linked list.
 LL Playground handles that surrounding work so you can focus on the linked-list logic itself.
+
 ## Supported Structures
 
 Singly Linked Lists
@@ -182,7 +182,7 @@ Singly Linked Lists
 Doubly Linked Lists
 None <- 1 <-> 2 <-> 3 <-> 4 -> None
 
-Requirements
+## Requirements
 Python 3.8+
 Development
 Clone the repository:

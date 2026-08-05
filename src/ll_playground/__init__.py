@@ -23,4 +23,6 @@ __all__ = [
     "dlists_equal",
 ]
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
+__AUTHOR__ = "REHAN GUPTA (BL4Z23)"
+__EMAIL__ = "BL4Z23.DEV@GMAIL.COM"

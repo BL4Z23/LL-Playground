@@ -174,7 +174,8 @@ Why LL Playground?
 Linked-list problems in Python often require a surprising amount of repetitive setup.
 Before you can work on the algorithm itself, you need to define the ListNode Class and manually define a linked list.
 LL Playground handles that surrounding work so you can focus on the linked-list logic itself.
-Supported Structures
+## Supported Structures
+
 Singly Linked Lists
 1 -> 2 -> 3 -> 4 -> None
 

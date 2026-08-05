@@ -1,5 +1,5 @@
 from .list_node import ListNode, DoublyListNode
-from .list_to_linked import list_to_linked, doubly_list_to_linked
+from .list_to_linked import list_to_linked, list_to_dll
 from .printer import (
     linked_to_list,
     has_cycle,
@@ -13,7 +13,7 @@ __all__ = [
     "ListNode",
     "DoublyListNode",
     "list_to_linked",
-    "doubly_list_to_linked",
+    "list_to_dll",
     "linked_to_list",
     "has_cycle",
     "print_ll",

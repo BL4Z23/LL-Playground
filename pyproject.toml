@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "LL-Playground"
-version = "0.1.0"
+version = "0.1.1"
 description = "Utilities for building, printing, comparing, and validating singly/doubly linked lists"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [
-    { name = "Your Name", email = "you@example.com" }
+    { name = "Rehan Gupta (BL4Z23)", email = "bl4z23.dev@gmail.com" }
 ]
 keywords = ["linked list", "data structures", "leetcode", "utilities"]
 classifiers = [
@@ -20,8 +20,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/LL-Playground"
-Repository = "https://github.com/yourusername/LL-Playground"
+Homepage = "https://github.com/BL4Z23"
+Repository = "https://github.com/BL4Z23/LL-Playground"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/ll_playground"]

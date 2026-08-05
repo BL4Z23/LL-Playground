@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "LL-Playground"
-version = "0.1.1"
+version = "0.1.2"
 description = "Utilities for building, printing, comparing, and validating singly/doubly linked lists"
 readme = "README.md"
 requires-python = ">=3.8"

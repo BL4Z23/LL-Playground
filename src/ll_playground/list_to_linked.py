@@ -14,7 +14,7 @@ def list_to_linked(lst, cycle_pos=-1):
     return nodes[0]
 
 
-def doubly_list_to_linked(lst, cycle_pos=-1):
+def list_to_dll(lst, cycle_pos=-1):
     if not lst:
         return None
 

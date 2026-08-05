@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "LL-Playground"
+version = "0.1.0"
+description = "Utilities for building, printing, comparing, and validating singly/doubly linked lists"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+keywords = ["linked list", "data structures", "leetcode", "utilities"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/LL-Playground"
+Repository = "https://github.com/yourusername/LL-Playground"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ll_playground"]
